@@ -1,0 +1,38 @@
+.anime-card {
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: 1px solid rgb(161, 0, 0);
+    overflow: hidden;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 20px;
+    min-width: 0px;
+}
+
+.anime-poster {
+    height: 500px;
+}
+.anime-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anime-overlay {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.favorite-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.favorite-btn:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+    background: grey;
+}
