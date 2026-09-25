@@ -9,6 +9,9 @@
     font-size: 20px;
     min-width: 0px;
 }
+.anime-card:hover {
+    transform: translateY(-15px)
+}
 
 .anime-poster {
     height: 500px;
