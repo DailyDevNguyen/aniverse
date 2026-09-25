@@ -23,15 +23,20 @@ function Home() {
         }
     }
   loadPopularAnimes()
-}
-  , []);
+}, []);
 
   return (
-    <>
-    <div className="animes-grid">
-        {animes.map(anime => <AnimeCard anime={anime} key={anime.id} />)}
+    <div className="home">
+      {error && <div className="error-message">{error}</div>}
+
+      {loading ? (
+        <div className="loading">Loading...</div>
+      ) : (
+        <div className="animes-grid">
+          {animes.map(anime => <AnimeCard anime={anime} key={anime.id} />)}
+        </div>
+      )}
     </div>
-    </>
   )
 }
 
