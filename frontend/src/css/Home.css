@@ -1,3 +1,24 @@
+.search-form {
+    text-align: center;
+    margin: 50px;
+}
+.search-input, .submit-btn {
+    font-size: 18px;
+    padding: 10px;
+}
+.search-input {
+    background-color: brown;
+    border: none;
+}
+.submit-btn {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: rgb(214, 78, 78);
+}
+
 .animes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
