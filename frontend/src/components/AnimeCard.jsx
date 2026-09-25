@@ -10,7 +10,7 @@ function AnimeCard({anime}) {
         </div>
         <div className="anime-info">
             <h3 className="anime-title">{anime.name}</h3>
-            <p className="anime-release-date">{anime.aired_on.split("-")[0]}</p>
+            <p className="anime-release-date">{anime.aired_on?.split("-")[0]}</p>
         </div>
     </div>
 }
