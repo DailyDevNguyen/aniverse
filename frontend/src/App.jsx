@@ -1,7 +1,7 @@
 import Home from "./pages/Home.jsx"
 import Favorites from "./pages/Favorites.jsx"
 import Navbar from "./components/Navbar.jsx"
-import {AnimeProvider} from "./comtexts/AnimeContext.jsx"
+import {AnimeProvider} from "./contexts/AnimeContext.jsx"
 import {Routes, Route} from "react-router-dom"
 
 function App() {
