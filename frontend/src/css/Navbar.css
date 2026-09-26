@@ -5,8 +5,14 @@
     padding: 1rem 2rem;
 }
 
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .navbar a {
     text-decoration: none;
+    color: black;
 }
 .navbar a:hover {
     color: white;
@@ -14,5 +20,20 @@
 
 .navbar-links {
     display: flex;
+    align-items: center;
     gap: 2rem;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-links {
+        gap: 1rem;
+    }
 }
